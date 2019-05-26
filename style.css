@@ -42,7 +42,7 @@ div.photo{
 	left: 226px;
   width: 197px;
   height: 271px;
-  background: url("/Images/Yi-Chia.png") no-repeat center;
+  background: url("/Files/Images/Yi-Chia.png") no-repeat center;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 }
@@ -107,7 +107,7 @@ div.cityArea{
 	width: 110px;
 	height: 115px;
 	cursor: pointer;
-	background: url('/Images/cityBut.png') no-repeat;
+	background: url('/Files/Images/cityBut.png') no-repeat;
 }
 #cityHover{
 	position: absolute;
@@ -116,7 +116,7 @@ div.cityArea{
 	width: 110px;
 	height: 115px;
 	cursor: pointer;
-	background: url('/Images/cityHover.png') no-repeat;
+	background: url('/Files/Images/cityHover.png') no-repeat;
 	display: none;
 }
 p.cyan{
@@ -254,7 +254,7 @@ div.aboutArea{
 	width: 110px;
 	height: 115px;
 	cursor: pointer;
-	background: url('/Images/aboutBut.png') no-repeat;
+	background: url('/Files/Images/aboutBut.png') no-repeat;
 }
 #aboutHover{
 	position: absolute;
@@ -263,7 +263,7 @@ div.aboutArea{
 	width: 110px;
 	height: 115px;
 	cursor: pointer;
-	background: url('/Images/aboutHover.png') no-repeat;
+	background: url('/Files/Images/aboutHover.png') no-repeat;
 	display: none;
 }
 #aboutAt{
@@ -272,7 +272,7 @@ div.aboutArea{
 	left: 135px;
 	width: 110px;
 	height: 115px;
-	background: url('/Images/aboutAt.png') no-repeat;
+	background: url('/Files/Images/aboutAt.png') no-repeat;
 }
 div.publicationsArea{
 	position: absolute;
@@ -289,7 +289,7 @@ div.publicationsArea{
 	width: 160px;
 	height: 115px;
 	cursor: pointer;
-	background: url('/Images/publicationsBut.png') no-repeat;
+	background: url('/Files/Images/publicationsBut.png') no-repeat;
 }
 #publicationsHover{
 	position: absolute;
@@ -298,7 +298,7 @@ div.publicationsArea{
 	width: 160px;
 	height: 115px;
 	cursor: pointer;
-	background: url('/Images/publicationsHover.png') no-repeat;
+	background: url('/Files/Images/publicationsHover.png') no-repeat;
 	display: none;
 }
 #publicationsAt{
@@ -307,7 +307,7 @@ div.publicationsArea{
 	left: 245px;
 	width: 160px;
 	height: 115px;
-	background: url('/Images/publicationsAt.png') no-repeat;
+	background: url('/Files/Images/publicationsAt.png') no-repeat;
 }
 div.cvArea{
 	position: absolute;
@@ -324,7 +324,7 @@ div.cvArea{
 	width: 110px;
 	height: 115px;
 	cursor: pointer;
-	background: url('/Images/cvBut.png') no-repeat;
+	background: url('/Files/Images/cvBut.png') no-repeat;
 }
 #cvHover{
 	position: absolute;
@@ -333,7 +333,7 @@ div.cvArea{
 	width: 110px;
 	height: 115px;
 	cursor: pointer;
-	background: url('/Images/cvHover.png') no-repeat;
+	background: url('/Files/Images/cvHover.png') no-repeat;
 	display: none;
 }
 #cvAt{
@@ -342,7 +342,7 @@ div.cvArea{
 	left: 405px;
 	width: 110px;
 	height: 115px;
-	background: url('/Images/cvAt.png') no-repeat;
+	background: url('/Files/Images/cvAt.png') no-repeat;
 }
 #leftTri{
 	position: absolute;
@@ -350,7 +350,7 @@ div.cvArea{
 	left: 95px;
 	width: 34px;
 	height: 30px;
-	background: url('/Images/triangle.png') no-repeat;
+	background: url('/Files/Images/triangle.png') no-repeat;
 }
 #rightTri{
 	position: absolute;
@@ -358,7 +358,7 @@ div.cvArea{
 	left: 521px;
 	width: 34px;
 	height: 30px;
-	background: url('/Images/triangle.png') no-repeat;
+	background: url('/Files/Images/triangle.png') no-repeat;
 }
 div.aboutAreaN{
 	display: none;
@@ -612,7 +612,7 @@ div.mailtoArea{
 	width: 60px;
 	height: 52px;
 	cursor: pointer;
-	background: url('/Images/mailto.png') no-repeat;
+	background: url('/Files/Images/mailto.png') no-repeat;
 }
 #mailtoHover{
 	position: absolute;
@@ -621,7 +621,7 @@ div.mailtoArea{
 	width: 60px;
 	height: 52px;
 	cursor: pointer;
-	background: url('/Images/mailtoHover.png') no-repeat;
+	background: url('/Files/Images/mailtoHover.png') no-repeat;
 	display: none;
 }
 div.gsArea{
@@ -639,7 +639,7 @@ div.gsArea{
 	width: 60px;
 	height: 52px;
 	cursor: pointer;
-	background: url('/Images/gs.png') no-repeat;
+	background: url('/Files/Images/gs.png') no-repeat;
 }
 #gsHover{
 	position: absolute;
@@ -648,7 +648,7 @@ div.gsArea{
 	width: 60px;
 	height: 52px;
 	cursor: pointer;
-	background: url('/Images/gsHover.png') no-repeat;
+	background: url('/Files/Images/gsHover.png') no-repeat;
 	display: none;
 }
 div.rgArea{
@@ -666,7 +666,7 @@ div.rgArea{
 	width: 60px;
 	height: 52px;
 	cursor: pointer;
-	background: url('/Images/rg.png') no-repeat;
+	background: url('/Files/Images/rg.png') no-repeat;
 }
 #rgHover{
 	position: absolute;
@@ -675,7 +675,7 @@ div.rgArea{
 	width: 60px;
 	height: 52px;
 	cursor: pointer;
-	background: url('/Images/rgHover.png') no-repeat;
+	background: url('/Files/Images/rgHover.png') no-repeat;
 	display: none;
 }
 
@@ -707,7 +707,7 @@ div.rgArea{
 		left: 50px;
 		width: 197px;
 		height: 271px;
-		background: url("/Images/Yi-Chia.png") no-repeat center;
+		background: url("/Files/Images/Yi-Chia.png") no-repeat center;
 		padding: 0px 0px 0px 0px;
 		margin: 0px 0px 0px 0px;
 	}
@@ -761,7 +761,7 @@ div.rgArea{
 		width: 110px;
 		height: 115px;
 		cursor: pointer;
-		background: url('/Images/cityBut.png') no-repeat;
+		background: url('/Files/Images/cityBut.png') no-repeat;
 	}
 	#cityHover{
 		position: absolute;
@@ -770,7 +770,7 @@ div.rgArea{
 		width: 110px;
 		height: 115px;
 		cursor: pointer;
-		background: url('/Images/cityHover.png') no-repeat;
+		background: url('/Files/Images/cityHover.png') no-repeat;
 		display: none;
 	}
 	p.cyanT{
@@ -880,7 +880,7 @@ div.rgArea{
 		width: 90px;
 		height: 75px;
 		cursor: pointer;
-		background: url('/Images/aboutButN.png') no-repeat;
+		background: url('/Files/Images/aboutButN.png') no-repeat;
 		display: inline;
 	}
 	#aboutHoverN{
@@ -890,7 +890,7 @@ div.rgArea{
 		width: 90px;
 		height: 75px;
 		cursor: pointer;
-		background: url('/Images/aboutHoverN.png') no-repeat;
+		background: url('/Files/Images/aboutHoverN.png') no-repeat;
 		display: none;
 	}
 	#aboutAtN{
@@ -900,7 +900,7 @@ div.rgArea{
 		width: 90px;
 		height: 75px;
 		cursor: pointer;
-		background: url('/Images/aboutAtN.png') no-repeat;
+		background: url('/Files/Images/aboutAtN.png') no-repeat;
 		display: inline;
 	}
 	div.publicationsAreaN{
@@ -919,7 +919,7 @@ div.rgArea{
 		width: 90px;
 		height: 75px;
 		cursor: pointer;
-		background: url('/Images/publicationsButN.png') no-repeat;
+		background: url('/Files/Images/publicationsButN.png') no-repeat;
 		display: inline;
 	}
 	#publicationsHoverN{
@@ -929,7 +929,7 @@ div.rgArea{
 		width: 90px;
 		height: 75px;
 		cursor: pointer;
-		background: url('/Images/publicationsHoverN.png') no-repeat;
+		background: url('/Files/Images/publicationsHoverN.png') no-repeat;
 		display: none;
 	}
 	#publicationsAtN{
@@ -939,7 +939,7 @@ div.rgArea{
 		width: 90px;
 		height: 75px;
 		cursor: pointer;
-		background: url('/Images/publicationsAtN.png') no-repeat;
+		background: url('/Files/Images/publicationsAtN.png') no-repeat;
 		display: inline;
 	}
 	div.cvAreaN{
@@ -957,7 +957,7 @@ div.rgArea{
 		left: 195px;
 		width: 90px;
 		height: 75px;
-		background: url('/Images/cvButN.png') no-repeat;
+		background: url('/Files/Images/cvButN.png') no-repeat;
 		display: inline;
 	}
 	#cvHoverN{
@@ -966,7 +966,7 @@ div.rgArea{
 		left: 195px;
 		width: 90px;
 		height: 75px;
-		background: url('/Images/cvHoverN.png') no-repeat;
+		background: url('/Files/Images/cvHoverN.png') no-repeat;
 		display: none;
 	}
 	#cvAtN{
@@ -975,7 +975,7 @@ div.rgArea{
 		left: 195px;
 		width: 90px;
 		height: 75px;
-		background: url('/Images/cvAtN.png') no-repeat;
+		background: url('/Files/Images/cvAtN.png') no-repeat;
 		display: inline;
 	}
 	div.aboutArea{
@@ -1105,7 +1105,7 @@ div.rgArea{
 		width: 60px;
 		height: 52px;
 		cursor: pointer;
-		background: url('/Images/mailto.png') no-repeat;
+		background: url('/Files/Images/mailto.png') no-repeat;
 	}
 	#mailtoHover{
 		position: absolute;
@@ -1114,7 +1114,7 @@ div.rgArea{
 		width: 60px;
 		height: 52px;
 		cursor: pointer;
-		background: url('/Images/mailtoHover.png') no-repeat;
+		background: url('/Files/Images/mailtoHover.png') no-repeat;
 		display: none;
 	}
 	div.gsArea{
@@ -1132,7 +1132,7 @@ div.rgArea{
 		width: 60px;
 		height: 52px;
 		cursor: pointer;
-		background: url('/Images/gs.png') no-repeat;
+		background: url('/Files/Images/gs.png') no-repeat;
 	}
 	#gsHover{
 		position: absolute;
@@ -1141,7 +1141,7 @@ div.rgArea{
 		width: 60px;
 		height: 52px;
 		cursor: pointer;
-		background: url('/Images/gsHover.png') no-repeat;
+		background: url('/Files/Images/gsHover.png') no-repeat;
 		display: none;
 	}
 	div.rgArea{
@@ -1159,7 +1159,7 @@ div.rgArea{
 		width: 60px;
 		height: 52px;
 		cursor: pointer;
-		background: url('/Images/rg.png') no-repeat;
+		background: url('/Files/Images/rg.png') no-repeat;
 	}
 	#rgHover{
 		position: absolute;
@@ -1168,7 +1168,7 @@ div.rgArea{
 		width: 60px;
 		height: 52px;
 		cursor: pointer;
-		background: url('/Images/rgHover.png') no-repeat;
+		background: url('/Files/Images/rgHover.png') no-repeat;
 		display: none;
 	}
 }

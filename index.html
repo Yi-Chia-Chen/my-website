@@ -5,10 +5,17 @@
 		<link rel='stylesheet' href='style.css' />
 		<meta name="keywords" content="Psychology, Perception, Vision, Yale, Harvard, 心理, 知覺, 視覺, 臺大, 耶魯, 哈佛" />
 		<meta name="author" content="Yi-Chia Chen 陳怡嘉" />
-		<meta name="google-site-verification" content="vHkeulMMKXaBgQprOy6hBXK-k4WMU5th2J1Xh3gBHBU" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="description" content="Welcome! I am a postdoctoral researcher at Harvard University working with George Alvarez in the Vision Sciences Laboratory." />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140862667-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-140862667-1');
+		</script>
 	</head>
 	<body onscroll="butDisplay()">
 		<div class='wholePage'>
@@ -55,12 +62,7 @@
 				<div class='rgArea' onmouseover="rgButOn()" onmouseout="rgButOut()" onclick="rgButClick()"></div>
 			</div>
 		</div>
-		<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
 		<script>
-		var sc_project=12015468;
-		var sc_invisible=1;
-		var sc_security="035108ae";
-
 		/*buttons*/
 		function aboutButOn() {
 			$(aboutHover).fadeIn(150);

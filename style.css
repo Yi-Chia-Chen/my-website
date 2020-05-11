@@ -47,9 +47,12 @@ header{
 	text-align: center;
     font-size: 70px;
     line-height: 100px;
+}
+a.title {
+    color: white;
     cursor: pointer;
 }
-.title:hover {
+a.title:hover {
 	color: #FF4F4F;
 	animation: title-hover 0.25s;
 }

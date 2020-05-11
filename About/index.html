@@ -4,85 +4,106 @@
 <head>
     <title>About - YCC</title>
     <link rel='stylesheet' href='../style.css' />
-    <link rel='shortcut icon' href='../Files/Images/favicon-32x32.png'>
-    <meta name='keywords' content='Psychology, Perception, Vision, Yale, Harvard, 心理, 知覺, 視覺, 臺大, 耶魯, 哈佛' />
+    <link rel='stylesheet' href='https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css' />
+    <link rel='shortcut icon' href='../Files/Images/favicon-32x32.png' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap' />
+    <meta name='keywords' content='Psychology, Perception, Vision, Yale, Harvard, UCLA' />
     <meta name='author' content='Yi-Chia Chen 陳怡嘉' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <meta name='description' content='Welcome! I am a postdoctoral researcher at UCLA working with Hongjing Lu in the Computational Vision and Learning Laboratory.' />
+    <meta name='description' content='Postdoctoral researcher at UCLA working with Hongjing Lu in the Computational Vision and Learning Laboratory' />
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src='https://kit.fontawesome.com/12eb5bce58.js'></script>
     <script async src='https://www.googletagmanager.com/gtag/js?id=UA-140862667-1'></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-
         gtag('config', 'UA-140862667-1');
     </script>
 </head>
 
-<body onscroll='butDisplay()'>
-    <div class='wholePage'>
-        <!--Header Area-->
-        <div class='header'>
-            <div class='nameArea'>
-                <p id='name' onclick='nameClick()'>Yi-Chia Chen</p>
+<body>
+    <div class='whole-page'>
+        <header>
+            <div class='title'>Yi-Chia Chen</div>
+        </header>
+        <nav>
+            <div class='nav-button-small' id='secret-button-left'>
+                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'>
+                    <polygon class='nav-triangle' points='1,0 0,1 0,0.1 0.1,0'/>
+                </svg>
             </div>
-            <div class='date'>Last Update<br />Apr - 15 - 2020</div>
-            <div class='buttons'>
-                <div id='leftTri'></div>
-                <div id='rightTri'></div>
-                <div id='aboutAt' title='ABOUT'></div>
-                <div id='publicationsBut' title='PUBLICATIONS'></div>
-                <div id='publicationsHover' title='PUBLICATIONS'></div>
-                <div class='publicationsArea' onmouseover='pubButOn()' onmouseout='pubButOut()' onclick='pubButClick()'></div>
-                <div id='cvBut' title='CV'></div>
-                <div id='cvHover' title='CV'></div>
-                <div class='cvArea' onmouseover='cvButOn()' onmouseout='cvButOut()' onclick='cvButClick()'></div>
-                <!--Narrow Version-->
-                <div id='aboutAtN' title='ABOUT'></div>
-                <div id='publicationsButN' title='PUBLICATIONS'></div>
-                <div id='publicationsHoverN' title='PUBLICATIONS'></div>
-                <div class='publicationsAreaN' onmouseover='pubButOnN()' onmouseout='pubButOutN()' onclick='pubButClick()'></div>
-                <div id='cvButN' title='CV'></div>
-                <div id='cvHoverN' title='CV'></div>
-                <div class='cvAreaN' onmouseover='cvButOnN()' onmouseout='cvButOutN()' onclick='cvButClick()'></div>
+            <svg class='nav-button rotate no-pointer' id='about-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+                <polygon class='red-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                <text x='11' y='9' fill='white' font-size='5.5px'>About</text>
+            </svg>
+            <svg class='nav-button rotate' id='publication-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+                <a href='../Publication'>
+                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                    <text x='11' y='9' fill='#161616' font-size='5.5px'>Publication</text>
+                </a>
+            </svg>
+            <svg class='nav-button rotate' id='resource-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+                <a href='../Resource'>
+                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                    <text x='11' y='9' fill='#161616' font-size='5.5px'>Resource</text>
+                </a>
+            </svg>
+            <svg class='nav-button rotate' id='demo-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+                <a href='../Demo'>
+                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                    <text x='11' y='9' fill='#161616' font-size='5.5px'>Demo</text>
+                </a>
+            </svg>
+            <div class='nav-button-small' id='secret-button-right'>
+                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'>
+                    <polygon class='nav-triangle' points='1,0 0,1 0.9,1 1,0.9'/>
+                </svg>
             </div>
-        </div>
-
-        <!--Content Area-->
-        <div class='contentBox'>
-            <div class='content'>
-                <p class='normal'>Welcome! I am a postdoctoral researcher at University of California, Los Angeles working with <a class='normal' href='https://www.psych.ucla.edu/faculty/page/hongjing' target='_blank'>Hongjing Lu</a> in the <a class='normal' href='http://cvl.psych.ucla.edu/' target='_blank'>Computational Vision and Learning Laboratory</a>. Before coming to UCLA, I have also done a postdoc with <a class='normal' href='http://scorsese.wjh.harvard.edu/George/' target='_blank'>George Alvarez</a> and <a class='normal' href='https://konklab.fas.harvard.edu/' target='_blank'>Talia Konkle</a> in the <a class='normal' href='http://visionlab.harvard.edu/VisionLab/index.php' target='_blank'>Vision Sciences Laboratory</a>. I did my graduate work at Yale University, working with <a class='normal' href='http://perception.yale.edu/Brian/' target='_blank'>Brian Scholl</a> in the <a class='normal' href='http://perception.yale.edu/' target='_blank'>Perception & Cognition lab</a>, and my undergraduate work at National Taiwan University with <a class='normal' href='http://epa.psy.ntu.edu.tw/suling_eng.htm' target='_blank'>Su-Ling Yeh</a> in the <a class='normal' href='http://epa.psy.ntu.edu.tw/' target='_blank'>Perception & Attention Laboratory</a>.</p>
-
-                <p class='normal'>A primary research focus of mine is how basic visual processes interact with higher-level aspects of perception. For example, I have been interested in how visual aesthetics can influence other aspects of visual processing, including the possibility that visual aesthetics are driven in part by more basic visual mechanisms (e.g., <a class='normal' href='../Files/Papers/Chen_Scholl_2014_PB&R_inwardAmbiguous.pdf' target='_blank'>Chen & Scholl, 2014</a>; <a class='normal' href='../Files/Papers/Chen_Colombatto_Scholl_2018_Cog_LookingIntoTheFuture.pdf' target='_blank'>Chen, Colombatto, & Scholl, 2018</a>). I have also explored how implicit inferences about causal history of objects (that we would typically associate with higher-level thoughts) are actually parts of perceptual shape representation, to the extent that they can induce apparent motion (<a class='normal' href='../Files/Papers/Chen_Scholl_2016_PsychSci_shapeHistory.pdf' target='_blank'>Chen & Scholl, 2016</a>).</p>
-
-                <p class='normal'>
-                    <font face='DFKai-sb' size='4'><br />歡迎！我的中文名是陳怡嘉，在加州大學洛杉磯分校擔任博士後研究員，由 <a class='normal' href='https://www.psych.ucla.edu/faculty/page/hongjing' target='_blank'>Hongjing Lu</a> 教授指導，於<a class='normal' href='http://cvl.psych.ucla.edu/' target='_blank'>視覺與學習模型實驗室</a>中進行研究。過去我曾在哈佛大學擔任博士後研究員，由 <a class='normal' href='http://scorsese.wjh.harvard.edu/George/' target='_blank'>George Alvarez</a> 教授與 <a class='normal' href='https://konklab.fas.harvard.edu/' target='_blank'>Talia Konkle</a> 教授指導，於<a class='normal' href='http://visionlab.harvard.edu/VisionLab/index.php' target='_blank'>視覺科學實驗室</a>中進行研究。我博士畢業自耶魯大學，在<a class='normal' href='http://perception.yale.edu/' target='_blank'>知覺與認知實驗室</a>中受 <a class='normal' href='http://perception.yale.edu/Brian/' target='_blank'布>Brian Scholl</a> 教授指導。大學時代我在國立臺灣大學 <a class='normal' href='http://epa.psy.ntu.edu.tw/suling.htm' target='_blank'>Suling Yeh</a> 教授的<a class='normal' href='http://epa.psy.ntu.edu.tw/' target='_blank'>知覺與注意力實驗室</a>進行研究。<br /><br />我現在的研究主要聚焦在基礎知覺歷程如何與較高階的知覺歷程互動。舉例來說，我目前正在研究視覺美感是否影響其他視知覺歷程，探索部分美感經驗來自基礎知覺歷程的可能性（例如：<a class='normal' href='../Files/Papers/Chen_Scholl_2014_PB&R_inwardAmbiguous.pdf' target='_blank'>Chen & Scholl, 2014</a>；<a class='normal' href='../Files/Papers/Chen_Colombatto_Scholl_2018_Cog_LookingIntoTheFuture.pdf' target='_blank'>Chen, Colombatto, & Scholl, 2018</a>）。另一方面我也進行物理直覺的研究，我發現人們不但可自動化推論出物件之所以為該物件當前模樣的「歷史」，這推論內容並不僅是高階思考，更是知覺形狀表徵的一部分。更有趣的是，這歷史表徵的強度竟足以引發運動錯覺（<a class='normal' href='../Files/Papers/Chen_Scholl_2016_PsychSci_shapeHistory.pdf' target='_blank'>Chen & Scholl, 2016</a>）！</font>
-                </p>
-
-            </div>
-            <div id='toTopButAreaFixed'>
-                <div id='toTopButFixed' onClick='toTop()'></div>
-            </div>
-            <div class='toTopButArea'>
-                <div class='toTopBut' onClick='toTop()'></div>
-            </div>
-            <div class='endBar'></div>
-        </div>
-        <div class='footer'>
-            <div id='mailto' title='Mail to'></div>
-            <div id='mailtoHover' title='Mail to'></div>
-            <div class='mailtoArea' onmouseover='mailtoButOn()' onmouseout='mailtoButOut()' onclick='mailtoButClick()'></div>
-            <div id='gs'></div>
-            <div id='gsHover' title='GS'></div>
-            <div class='gsArea' onmouseover='gsButOn()' onmouseout='gsButOut()' onclick='gsButClick()'></div>
-            <div id='rg'></div>
-            <div id='rgHover' title='RG'></div>
-            <div class='rgArea' onmouseover='rgButOn()' onmouseout='rgButOut()' onclick='rgButClick()'></div>
-        </div>
+        </nav>
+        <main class='text-box'>
+            <p class='english-paragraph'>
+                Welcome! I am a postdoctoral researcher at University of California, Los Angeles working with <a href='https://www.psych.ucla.edu/faculty/page/hongjing' target='_blank' rel='noopener noreferrer'>Hongjing Lu</a> in the <a href='http://cvl.psych.ucla.edu/' target='_blank' rel='noopener noreferrer'>Computational Vision and Learning Laboratory</a>. Before coming to UCLA, I have also done a postdoc with <a href='http://scorsese.wjh.harvard.edu/George/' target='_blank' rel='noopener noreferrer'>George Alvarez</a> and <a href='https://konklab.fas.harvard.edu/' target='_blank' rel='noopener noreferrer'>Talia Konkle</a> in the <a href='http://visionlab.harvard.edu/VisionLab/index.php' target='_blank' rel='noopener noreferrer'>Vision Sciences Laboratory</a>. I did my graduate work at Yale University, working with <a href='http://perception.yale.edu/Brian/' target='_blank' rel='noopener noreferrer'>Brian Scholl</a> in the <a href='http://perception.yale.edu/' target='_blank' rel='noopener noreferrer'>Perception & Cognition lab</a>, and my undergraduate work at National Taiwan University with <a href='http://epa.psy.ntu.edu.tw/suling_eng.htm' target='_blank' rel='noopener noreferrer'>Su-Ling Yeh</a> in the <a href='http://epa.psy.ntu.edu.tw/' target='_blank' rel='noopener noreferrer'>Perception & Attention Laboratory</a>.
+            </p>
+            <p class='english-paragraph'>
+                You can view my CV <a href='../Files/Chen_CV.pdf' target='_blank'>here</a>.
+            </p>
+            <p class='english-paragraph'>
+                A primary research focus of mine is how basic visual processes interact with higher-level aspects of perception. For example, I have been interested in how visual aesthetics can influence other aspects of visual processing, including the possibility that visual aesthetics are driven in part by more basic visual mechanisms (e.g., <a href='../Files/Papers/Chen_Scholl_2014_PB&R_inwardAmbiguous.pdf' target='_blank'>Chen & Scholl, 2014</a>; <a href='../Files/Papers/Chen_Colombatto_Scholl_2018_Cog_LookingIntoTheFuture.pdf' target='_blank'>Chen, Colombatto, & Scholl, 2018</a>). I have also explored how implicit inferences about causal history of objects (that we would typically associate with higher-level thoughts) are actually parts of perceptual shape representation, to the extent that they can induce apparent motion (<a href='../Files/Papers/Chen_Scholl_2016_PsychSci_shapeHistory.pdf' target='_blank'>Chen & Scholl, 2016</a>).
+            </p>
+            <br />
+            <p class='chinese-paragraph'>
+                歡迎！我的中文名是陳怡嘉，在加州大學洛杉磯分校擔任博士後研究員，由 <a href='https://www.psych.ucla.edu/faculty/page/hongjing' target='_blank' rel='noopener noreferrer'>Hongjing Lu</a> 教授指導，於<a href='http://cvl.psych.ucla.edu/' target='_blank' rel='noopener noreferrer'>視覺與學習模型實驗室</a>中進行研究。過去我曾在哈佛大學擔任博士後研究員，由 <a href='http://scorsese.wjh.harvard.edu/George/' target='_blank' rel='noopener noreferrer'>George Alvarez</a> 教授與 <a href='https://konklab.fas.harvard.edu/' target='_blank' rel='noopener noreferrer'>Talia Konkle</a> 教授指導，於<a href='http://visionlab.harvard.edu/VisionLab/index.php' target='_blank' rel='noopener noreferrer'>視覺科學實驗室</a>中進行研究。我博士畢業自耶魯大學，在<a href='http://perception.yale.edu/' target='_blank' rel='noopener noreferrer'>知覺與認知實驗室</a>中受 <a href='http://perception.yale.edu/Brian/' target='_blank' rel='noopener noreferrer'>Brian Scholl</a> 教授指導。大學時代我在國立臺灣大學 <a href='http://epa.psy.ntu.edu.tw/suling.htm' target='_blank' rel='noopener noreferrer'>Suling Yeh</a> 教授的<a href='http://epa.psy.ntu.edu.tw/' target='_blank' rel='noopener noreferrer'>知覺與注意力實驗室</a>進行研究。
+            </p>
+            <p class='chinese-paragraph'>
+                完整經歷請見<a href='../Files/Chen_CV.pdf' target='_blank'>履歷</a>。
+            </p>
+            <p class='chinese-paragraph'>
+                我現在的研究主要聚焦在基礎知覺歷程如何與較高階的知覺歷程互動。舉例來說，我目前正在研究視覺美感是否影響其他視知覺歷程，探索部分美感經驗來自基礎知覺歷程的可能性（例如：<a href='../Files/Papers/Chen_Scholl_2014_PB&R_inwardAmbiguous.pdf' target='_blank'>Chen & Scholl, 2014</a>；<a href='../Files/Papers/Chen_Colombatto_Scholl_2018_Cog_LookingIntoTheFuture.pdf' target='_blank'>Chen, Colombatto, & Scholl, 2018</a>）。另一方面我也進行物理直覺的研究，我發現人們不但可自動化推論出物件之所以為該物件當前模樣的「歷史」，這推論內容並不僅是高階思考，更是知覺形狀表徵的一部分。更有趣的是，這歷史表徵的強度竟足以引發運動錯覺（<a href='../Files/Papers/Chen_Scholl_2016_PsychSci_shapeHistory.pdf' target='_blank'>Chen & Scholl, 2016</a>）！
+            </p>
+        </main>
+        <footer>
+            <a class='footer-button' id='gs-button' href='https://scholar.google.com/citations?user=8DzbEt8AAAAJ' target='_blank' rel='noopener noreferrer'>
+                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 50'>
+                    <polygon class='hexagon' points='43.16,1 15.15,1 1.16,25.25 15.15,49.5 43.16,49.5 57.16,25.25 43.16,1'/>
+                </svg>
+                <div class='ai ai-google-scholar ai-3x footer-icon' id='gs-icon'></div>
+            </a>
+            <a class='footer-button' id='rg-button' href='https://www.researchgate.net/profile/Yi-Chia_Chen' target='_blank' rel='noopener noreferrer'>
+                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 50'>
+                    <polygon class='hexagon' points='43.16,1 15.15,1 1.16,25.25 15.15,49.5 43.16,49.5 57.16,25.25 43.16,1'/>
+                </svg>
+                <div class='ai ai-researchgate ai-3x footer-icon' id='rg-icon'></div>
+            </a>
+            <a class='footer-button' id='github-button' href='https://github.com/Yi-Chia-Chen' target='_blank' rel='noopener noreferrer'>
+                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 50'>
+                    <polygon class='hexagon' points='43.16,1 15.15,1 1.16,25.25 15.15,49.5 43.16,49.5 57.16,25.25 43.16,1'/>
+                </svg>
+                <div class='fab fa-github fa-3x footer-icon' id='github-icon'></div>
+            </a>
+        </footer>
     </div>
     <script>
         var sc_project = 12015468;
@@ -90,128 +111,6 @@
         var sc_security = '035108ae';
     </script>
     <script src='https://www.statcounter.com/counter/counter.js' async></script>
-    <script>
-        var body = document.body
-        var html = document.documentElement;
-        var height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
-        var viewHeight = $(window).height();
-        var butAppear = 50;
-        var butDiss = height - viewHeight - 160;
-
-        /*buttons*/
-        function pubButOn() {
-            $(publicationsHover).fadeIn(150);
-            $(publicationsBut).fadeOut(150);
-        }
-
-        function pubButOut() {
-            $(publicationsBut).fadeIn(150);
-            $(publicationsHover).fadeOut(150);
-        }
-
-        function cvButOn() {
-            $(cvBut).fadeOut(150);
-            $(cvHover).fadeIn(150);
-        }
-
-        function cvButOut() {
-            $(cvHover).fadeOut(150);
-            $(cvBut).fadeIn(150);
-        }
-
-        /*Narrow Version*/
-        function pubButOnN() {
-            $(publicationsHoverN).fadeIn(150);
-            $(publicationsButN).fadeOut(150);
-        }
-
-        function pubButOutN() {
-            $(publicationsButN).fadeIn(150);
-            $(publicationsHoverN).fadeOut(150);
-        }
-
-        function cvButOnN() {
-            $(cvButN).fadeOut(150);
-            $(cvHoverN).fadeIn(150);
-        }
-
-        function cvButOutN() {
-            $(cvHoverN).fadeOut(150);
-            $(cvButN).fadeIn(150);
-        }
-
-        /*click*/
-        function nameClick() {
-            window.location = '../';
-        }
-
-        function pubButClick() {
-            window.location = '../Publications/';
-        }
-
-        function cvButClick() {
-            window.location = '../CV/';
-        }
-
-        /*links*/
-        function mailtoButOn() {
-            $(mailtoHover).fadeIn(150);
-            $(mailto).fadeOut(150);
-        }
-
-        function mailtoButOut() {
-            $(mailto).fadeIn(150);
-            $(mailtoHover).fadeOut(150);
-        }
-
-        function gsButOn() {
-            $(gsHover).fadeIn(150);
-            $(gs).fadeOut(150);
-        }
-
-        function gsButOut() {
-            $(gs).fadeIn(150);
-            $(gsHover).fadeOut(150);
-        }
-
-        function rgButOn() {
-            $(rgHover).fadeIn(150);
-            $(rg).fadeOut(150);
-        }
-
-        function rgButOut() {
-            $(rg).fadeIn(150);
-            $(rgHover).fadeOut(150);
-        }
-
-        function mailtoButClick() {
-            window.open('mailto:yichiachen@ucla.edu');
-        }
-
-        function gsButClick() {
-            window.open('https://scholar.google.com/citations?user=8DzbEt8AAAAJ');
-        }
-
-        function rgButClick() {
-            window.open('https://www.researchgate.net/profile/Yi-Chia_Chen');
-        }
-
-        /*toTop*/
-        function toTop() {
-            window.scrollTo(0, 0);
-        }
-
-        function butDisplay() {
-            if (window.pageYOffset > butAppear && window.pageYOffset < butDiss) {
-                $('#toTopButAreaFixed').fadeIn();
-                $('#toTopButFixed').fadeIn();
-            }
-            if (window.pageYOffset <= butAppear || window.pageYOffset >= butDiss) {
-                $('#toTopButFixed').fadeOut();
-                $('#toTopButAreaFixed').fadeOut();
-            }
-        }
-    </script>
 </body>
 
 </html>

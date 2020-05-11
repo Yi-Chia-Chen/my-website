@@ -4,136 +4,119 @@
 <head>
     <title>Publications - YCC</title>
     <link rel='stylesheet' href='../style.css' />
-    <link rel='shortcut icon' href='../Files/Images/favicon-32x32.png'>
-    <meta name='keywords' content='Psychology, Perception, Vision, Yale, Harvard, 心理, 知覺, 視覺, 臺大, 耶魯, 哈佛' />
+    <link rel='stylesheet' href='https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css' />
+    <link rel='shortcut icon' href='../Files/Images/favicon-32x32.png' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap' />
+    <meta name='keywords' content='Psychology, Perception, Vision, Yale, Harvard, UCLA' />
     <meta name='author' content='Yi-Chia Chen 陳怡嘉' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <meta name='description' content='Publications by Yi-Chia Chen' />
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src='https://kit.fontawesome.com/12eb5bce58.js'></script>
     <script async src='https://www.googletagmanager.com/gtag/js?id=UA-140862667-1'></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-
         gtag('config', 'UA-140862667-1');
     </script>
 </head>
 
-<body onscroll='butDisplay()'>
-    <div class='wholePage'>
-        <!--Header Area-->
-        <div class='header'>
-            <div class='nameArea'>
-                <p id='name' onclick='nameClick()'>Yi-Chia Chen</p>
+<body>
+    <div class='whole-page'>
+        <header>
+            <div class='title'>Yi-Chia Chen</div>
+        </header>
+        <nav>
+            <div class='nav-button-small' id='secret-button-left'>
+                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'>
+                    <polygon class='nav-triangle' points='1,0 0,1 0,0.1 0.1,0'/>
+                </svg>
             </div>
-            <div class='date'>Last Update<br />Apr - 15 - 2020</div>
-            <div class='buttons'>
-                <div id='leftTri'></div>
-                <div id='rightTri'></div>
-                <div id='aboutBut' title='ABOUT'></div>
-                <div id='aboutHover' title='ABOUT'></div>
-                <div class='aboutArea' onmouseover='aboutButOn()' onmouseout='aboutButOut()' onclick='aboutButClick()'></div>
-                <div id='publicationsAt' title='PUBLICATIONS'></div>
-                <div id='cvBut' title='CV'></div>
-                <div id='cvHover' title='CV'></div>
-                <div class='cvArea' onmouseover='cvButOn()' onmouseout='cvButOut()' onclick='cvButClick()'></div>
-                <!--Narrow Version-->
-                <div id='aboutButN' title='ABOUT'></div>
-                <div id='aboutHoverN' title='ABOUT'></div>
-                <div class='aboutAreaN' onmouseover='aboutButOnN()' onmouseout='aboutButOutN()' onclick='aboutButClick()'></div>
-                <div id='publicationsAtN' title='PUBLICATIONS'></div>
-                <div id='cvButN' title='CV'></div>
-                <div id='cvHoverN' title='CV'></div>
-                <div class='cvAreaN' onmouseover='cvButOnN()' onmouseout='cvButOutN()' onclick='cvButClick()'></div>
+            <svg class='nav-button rotate' id='about-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+                <a href='../About'>
+                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                    <text x='11' y='9' fill='#161616' font-size='5.5px'>About</text>
+                </a>
+            </svg>
+            <svg class='nav-button rotate no-pointer' id='publication-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+                <polygon class='red-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                <text x='11' y='9' fill='white' font-size='5.5px'>Publication</text>
+            </svg>
+            <svg class='nav-button rotate' id='resource-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+                <a href='../Resource'>
+                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                    <text x='11' y='9' fill='#161616' font-size='5.5px'>Resource</text>
+                </a>
+            </svg>
+            <svg class='nav-button rotate' id='demo-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+                <a href='../Demo'>
+                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                    <text x='11' y='9' fill='#161616' font-size='5.5px'>Demo</text>
+                </a>
+            </svg>
+            <div class='nav-button-small' id='secret-button-right'>
+                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'>
+                    <polygon class='nav-triangle' points='1,0 0,1 0.9,1 1,0.9'/>
+                </svg>
             </div>
-        </div>
-        <!--Content Area-->
-        <div class='contentBox'>
-            <div class='content'>
-                <!-- Journal Articles -->
-                <p class='sectionTitle'>Journal Articles</p>
-                <p class='publications'>Yousif, S. R., Chen, Y. -C., & Scholl, B. J. (in press). Systematic angular biases in the representation of visual space. <i>Attention, Perception, & Psychophysics</i>.</p>
-                <p class='publications'>Chen, Y. -C., Colombatto, C., & Scholl, B. J. (2018). Looking into the future: An inward bias in aesthetic experience driven only by gaze cues. <i>Cognition, 176,</i> 209-214. <a class='publications' href='../Files/Papers/Chen_Colombatto_Scholl_2018_Cog_LookingIntoTheFuture.pdf'
-                        target='_blank'>[<span class='pubLink'>Full Text</span>]</a> <a class='publications' href='http://perception.yale.edu/Brian/demos/Aesthetics-InwardBiasGaze.html' target='_blank'>[<span class='pubLink'>Demo</span>]</a></p>
-                <p class='publications'>Chen, Y. -C., & Scholl, B. J. (2016). The perception of history: Seeing causal history in static shapes induces illusory motion perception. <i>Psychological Science, 27,</i> 923-930. <a class='publications' href='../Files/Papers/Chen_Scholl_2016_PsychSci_shapeHistory.pdf'
-                        target='_blank'>[<span class='pubLink'>Full Text</span>]</a> <a class='publications' href='http://perception.yale.edu/Brian/demos/CausalHistory-AM.html' target='_blank'>[<span class='pubLink'>Demo</span>]</a></p>
-                <p class='publications'>Chen, Y. -C., & Scholl, B. J. (2014). Seeing and liking: Biased perception of ambiguous figures consistent with the 'inward bias' in aesthetic preferences. <i>Psychonomic Bulletin & Review, 21,</i> 1444-1451. <a class='publications' href='../Files/Papers/Chen_Scholl_2014_PB&R_inwardAmbiguous.pdf'
-                        target='_blank'>[<span class='pubLink'>Full Text</span>]</a></p>
-                <p class='publications'>Chen, Y. -C., & Yeh, S. -L. (2012). Look into my eyes and I will see you: Unconscious processing of human gaze. <i>Consciousness & Cognition, 21,</i> 1703-1710. <a class='publications' href='../Files/Papers/Chen_Yeh_2012_C&C_unconsciousGaze.pdf'
-                        target='_blank'>[<span class='pubLink'>Full Text</span>]</a></p>
+        </nav>
+        <main class='text-box'>
+            <p class='section-title'>Journal Articles</p>
+            <p class='publications'>Yousif, S. R., Chen, Y. -C., & Scholl, B. J. (in press). Systematic angular biases in the representation of visual space. <em>Attention, Perception, & Psychophysics</em>.</p>
+            <p class='publications'>Chen, Y. -C., Colombatto, C., & Scholl, B. J. (2018). Looking into the future: An inward bias in aesthetic experience driven only by gaze cues. <em>Cognition, 176,</em> 209-214. <a href='../Files/Papers/Chen_Colombatto_Scholl_2018_Cog_LookingIntoTheFuture.pdf' target='_blank'>[Full Text]</a> <a href='http://perception.yale.edu/Brian/demos/Aesthetics-InwardBiasGaze.html' target='_blank' rel='noopener noreferrer'>[Demo]</a></p>
+            <p class='publications'>Chen, Y. -C., & Scholl, B. J. (2016). The perception of history: Seeing causal history in static shapes induces illusory motion perception. <em>Psychological Science, 27,</em> 923-930. <a href='../Files/Papers/Chen_Scholl_2016_PsychSci_shapeHistory.pdf' target='_blank'>[Full Text]</a> <a href='http://perception.yale.edu/Brian/demos/CausalHistory-AM.html' target='_blank' rel='noopener noreferrer'>[Demo]</a></p>
+            <p class='publications'>Chen, Y. -C., & Scholl, B. J. (2014). Seeing and liking: Biased perception of ambiguous figures consistent with the 'inward bias' in aesthetic preferences. <em>Psychonomic Bulletin & Review, 21,</em> 1444-1451. <a href='../Files/Papers/Chen_Scholl_2014_PB&R_inwardAmbiguous.pdf' target='_blank'>[Full Text]</a></p>
+            <p class='publications'>Chen, Y. -C., & Yeh, S. -L. (2012). Look into my eyes and I will see you: Unconscious processing of human gaze. <em>Consciousness & Cognition, 21,</em> 1703-1710. <a href='../Files/Papers/Chen_Yeh_2012_C&C_unconsciousGaze.pdf' target='_blank'>[Full Text]</a></p>
 
-                <!-- Manuscripts -->
-                <p class='sectionTitle'>Manuscript</p>
-                <p class='publications'>Colombatto, C., Chen, Y. -C., & Scholl, B. J. (under review). ‘Gaze deflection’ reveals how gaze cueing is tuned to extract the mind behind the eyes.</p>
-                <p class='publications'>Forman, I. R., Chen, Y. -C., Scholl, B. J., & Alvarez, G. A. (under review). The center cannot hold: Variations of frame width help to explain the ‘inward bias’ in aesthetic preferences.</p>
-                <p class='publications'>Chen, Y. -C., Chang, A., Rosenberg, M. D., Feng, D., Scholl, B. J., & Trainor, L. J. (in preparation). Are you the sort of person who would like this? Quantifying the typicality of aesthetic taste across seeing and hearing.</p>
+            <p class='section-title'>Manuscript</p>
+            <p class='publications'>Colombatto, C., Chen, Y. -C., & Scholl, B. J. (under review). ‘Gaze deflection’ reveals how gaze cueing is tuned to extract the mind behind the eyes.</p>
+            <p class='publications'>Forman, I. R., Chen, Y. -C., Scholl, B. J., & Alvarez, G. A. (under review). The center cannot hold: Variations of frame width help to explain the ‘inward bias’ in aesthetic preferences.</p>
+            <p class='publications'>Chen, Y. -C., Chang, A., Rosenberg, M. D., Feng, D., Scholl, B. J., & Trainor, L. J. (in preparation). Are you the sort of person who would like this? Quantifying the typicality of aesthetic taste across seeing and hearing.</p>
 
-                <!-- Conference Papers -->
-                <p class='sectionTitle'>Conference Papers</p>
-                <p class='publicationsConf'>Deza, A., Chen, Y. -C, Long, B., & Konkle, T. (2019). Accelerated texforms: Alternative methods for generating unrecognizable object images with preserved mid-level features. Poster presented at the <i>Conference on Cognitive Computational Neuroscience (CCN)</i>,
-                    9/15, Berlin, Germany. <a class='publications' href='../Files/Posters/Deza_Chen_Long_Konkle_2018_CCN_FastTexFormsPoster.pdf' target='_blank'>[<span class='pubLink'>Poster</span>]</a> <a class='publications' href='https://github.com/ArturoDeza/Fast-Texforms' target='_blank'>[<span class='pubLink'>Code</span>]</a></p>
-                <p class='publicationsConf'>Huang, T. -H., Kao, C. -T, Chen, Y. -C., Yeh, S. -L., & Chen, H. H. (2012). A visibility model for quality assessment of dimmed images. Poster presented at the 4th <i>International Workshop on Quality of Multimedia Experience (QoMEX)</i>,
-                    7/06, Yarra Valley, Australia. <a class='publications' href='../Files/Papers/Huang_etal_2012_dimmedQuality.pdf' target='_blank'>[<span class='pubLink'>Full Text</span>]</a></p>
+            <p class='section-title'>Conference Papers</p>
+            <p class='publications-conf'>Deza, A., Chen, Y. -C, Long, B., & Konkle, T. (2019). Accelerated texforms: Alternative methods for generating unrecognizable object images with preserved mid-level features. Poster presented at the <em>Conference on Cognitive Computational Neuroscience (CCN)</em>, 9/15, Berlin, Germany. <a href='../Files/Posters/Deza_Chen_Long_Konkle_2018_CCN_FastTexFormsPoster.pdf' target='_blank'>[Poster]</a> <a href='https://github.com/ArturoDeza/Fast-Texforms' target='_blank' rel='noopener noreferrer'>[Code]</a></p>
+            <p class='publications-conf'>Huang, T. -H., Kao, C. -T, Chen, Y. -C., Yeh, S. -L., & Chen, H. H. (2012). A visibility model for quality assessment of dimmed images. Poster presented at the 4th <em>International Workshop on Quality of Multimedia Experience (QoMEX)</em>, 7/06, Yarra Valley, Australia. <a href='../Files/Papers/Huang_etal_2012_dimmedQuality.pdf' target='_blank'>[Full Text]</a></p>
 
-                <!-- Conference Presentations -->
-                <p class='sectionTitle'>Conference Presentations</p>
-                <p class='publicationsConf'>Chen, Y. -C., Chang, A., Rosenberg, M. D., Scholl, B. J., & Trainor, L. J. (2019). Are you the sort of person who would like this? Quantifying the typicality of aesthetic taste across seeing and hearing. Talk given at the 2019 Annual Meeting
-                    of <i>Vision Sciences Society (VSS)</i>, 5/20, St. Pete Beach, FL, USA.
-                    <!-- <a class='publications' href='' target='_blank'>[<span class='pubLink'>Abstract</span>]</a> --></p>
-                <p class='publicationsConf'>Yousif, S. R., Chen, Y. -C., & Scholl, B. J. (2019). Systematic biases in the representation of visual space. Poster presented at the 2019 Annual Meeting of <i>Vision Sciences Society (VSS)</i>, 5/20, St. Pete Beach, FL, USA.
-                    <!-- <a class='publications' href='' target='_blank'>[<span class='pubLink'>Abstract</span>]</a> --></p>
-                <p class='publicationsConf'>Chen, Y. -C., Colombatto, C., & Scholl, B. J. (2018). Looking into the future: An inward bias in aesthetic experience driven only by gaze cues. Poster presented at the 2018 Annual Meeting of <i>Vision Sciences Society (VSS)</i>, 5/23,
-                    St. Pete Beach, FL, USA. <a class='publications' href='../Files/Posters/Chen_Colombatto_Scholl_2018_VSS_gazeInwardBias.pdf' target='_blank'>[<span class='pubLink'>Poster</span>]</a> <a class='publications' href='https://doi.org/10.1167/18.10.1333'
-                        target='_blank'>[<span class='pubLink'>Abstract</span>]</a></p>
-                <p class='publicationsConf'>Yousif, S., Chen, Y. -C., & Scholl, B. J. (2018). The origin of spatial biases: Memory, perception, or action? Poster presented at the 2018 Annual Meeting of <i>Vision Sciences Society (VSS)</i>, 5/23, St. Pete Beach, FL, USA. <a class='publications'
-                        href='https://doi.org/10.1167/18.10.1324' target='_blank'>[<span class='pubLink'>Abstract</span>]</a></p>
-                <p class='publicationsConf'>Colombatto, C., Chen, Y. -C., & Scholl, B. J. (2018). Gaze cueing is tuned to extract the mind behind the gaze: Investigations of 'gaze deflection'. Talk given at the 2018 Annual Meeting of <i>Vision Sciences Society (VSS)</i>, 5/19, St.
-                    Pete Beach, FL, USA. <a class='publications' href='https://doi.org/10.1167/18.10.197' target='_blank'>[<span class='pubLink'>Abstract</span>]</a></p>
-                <p class='publicationsConf'>Colombatto, C., Chen, Y. -C., & Scholl, B. J. (2017). Gaze cueing is tuned to extract the mind behind the gaze: Investigations of ‘gaze deflection’. Poster presented at the annual meeting of the <i>European Conference on Visual Perception (ECVP)</i>,
-                    8/29, Berlin, Germany.</p>
-                <p class='publicationsConf'>Chen, Y. -C., Raila, H., & Scholl, B. J. (2017). Sad minds seeking happy stimuli: Trait happiness predicts how quickly happy faces reach visual awareness. Poster presented at the annual meeting of <i>Vison Sciences Society (VSS)</i>, 5/23,
-                    St. Pete Beach, FL, USA. <a class='publications' href='https://doi.org/10.1167/17.10.1210' target='_blank'>[<span class='pubLink'>Abstract</span>]</a></p>
-                <p class='publicationsConf'>Raila, H., Chen, Y. -C., & Scholl, B. J. (2017). Unhappy people quickly promote happy faces into awareness. Talk presented at the annual meeting of the <i>Society for Affective Science (SAS)</i>, 4/29, Boston, MA, USA.</p>
-                <p class='publicationsConf'>Chen, Y. -C., & Scholl, B. J. (2015). Seeing history: The perception of causal history induces illusory motion perception in static shapes. Talk given at the 11th <i>Asia-Pacific Conference on Vision (APCV)</i>, 7/11,Nanyang Technological
-                    University, Singapore. <a class='publications' href='../Files/Abstracts/Chen_Scholl_2015_APCV_seeingHistoryAbstract.html' target='_blank'>[<span class='pubLink'>Abstract</span>]</a></p>
-                <p class='publicationsConf'>Chen, Y. -C., & Scholl, B. J. (2015). The perception of history: Seeing causal history in static shapes is powerful enough to induce illusory motion perception. Poster presented at the 2015 Annual Meeting of <i>Vision Sciences Society (VSS)</i>,
-                    5/19, St. Pete Beach, FL, USA. <a class='publications' href='../Files/Posters/Chen_Scholl_2015_VSS_seeingHistoryPoster.pdf' target='_blank'>[<span class='pubLink'>Poster</span>]</a> <a class='publications' href='https://doi.org/10.1167/15.12.1035'
-                        target='_blank'>[<span class='pubLink'>Abstract</span>]</a></p>
-                <p class='publicationsConf'>Chen, Y. -C., & Scholl, B. J. (2014). Aesthetic influences on visual awareness?: An 'inward bias' in inattentional blindness. Talk given at the 10th <i>Asia-Pacific Conference on Vision (APCV)</i>, 7/21, Takamatsu, Japan.</p>
-                <p class='publicationsConf'>Chen, Y. -C., & Scholl, B. J. (2014). Seeing and liking from the outside in: Consistent inward biases in visual perception and aesthetic preferences. Poster presented at the 2014 Annual Meeting of <i>Vision Sciences Society (VSS)</i>,
-                    5/17, St. Pete Beach, FL, USA. <a class='publications' href='https://doi.org/10.1167/14.10.246' target='_blank'>[<span class='pubLink'>Abstract</span>]</a></p>
-                <p class='publicationsConf'>Chen, Y. -C., & Scholl, B. J. (2013). Seeing and liking: Biased perception of ambiguous figures based on aesthetic preferences for how objects should face within a frame. Poster presented at the 2013 Annual Meeting of <i>Vision Sciences Society (VSS)</i>,
-                    5/10, Naples, FL, USA. <a class='publications' href='../Files/Posters/Chen_Scholl_2013_VSS_inwardAmbiguousPoster.pdf' target='_blank'>[<span class='pubLink'>Poster</span>]</a> <a class='publications' href='https://doi.org/10.1167/13.9.59'
-                        target='_blank'>[<span class='pubLink'>Abstract</span>]</a></p>
-                <p class='publicationsConf'>Chen, Y. -C., & Yeh, S. -L. (2011). Dissociating attention and audiovisual integration in the sound-facilitatory effect on metacontrast masking. Poster presented at the 12th <i>International Multisensory Research Forum (IMRF)</i>, 10/19,
-                    Fukuoka, Japan. <a class='publications' href='../Files/Posters/Chen_Yeh_2011_IMRF_maskingPoster.pdf' target='_blank'>[<span class='pubLink'>Poster</span>]</a> <a class='publications' href='https://doi.org/10.1068/ic909' target='_blank'>[<span class='pubLink'>Abstract</span>]</a></p>
-                <p class='publicationsConf'>Chen, Y. -C., & Yeh, S. -L. (2011). Orienting or intention? Unconscious processing of human gaze. Talk given at the 15th Annual Meeting of the <i>Association for the Scientific Study of Consciousness (ASSC)</i>, 6/12, Kyoto, Japan.
-                    <a class='publications' href='../Files/Abstracts/Chen_Yeh_2011_ASSC_unconsciousGazeAbstract.html' target='_blank'>[<span class='pubLink'>Abstract</span>]</a>
-                </p>
-            </div>
-            <div id='toTopButAreaFixed'>
-                <div id='toTopButFixed' onClick='toTop()'></div>
-            </div>
-            <div class='toTopButArea'>
-                <div class='toTopBut' onClick='toTop()'></div>
-            </div>
-            <div class='endBar'></div>
-        </div>
-        <div class='footer'>
-            <div id='mailto' title='Mail to'></div>
-            <div id='mailtoHover' title='Mail to'></div>
-            <div class='mailtoArea' onmouseover='mailtoButOn()' onmouseout='mailtoButOut()' onclick='mailtoButClick()'></div>
-            <div id='gs'></div>
-            <div id='gsHover' title='GS'></div>
-            <div class='gsArea' onmouseover='gsButOn()' onmouseout='gsButOut()' onclick='gsButClick()'></div>
-            <div id='rg'></div>
-            <div id='rgHover' title='RG'></div>
-            <div class='rgArea' onmouseover='rgButOn()' onmouseout='rgButOut()' onclick='rgButClick()'></div>
-        </div>
+            <p class='section-title'>Conference Presentations</p>
+            <p class='publications-conf'>Chen, Y. -C., Chang, A., Rosenberg, M. D., Scholl, B. J., & Trainor, L. J. (2019). Are you the sort of person who would like this? Quantifying the typicality of aesthetic taste across seeing and hearing. Talk given at the 2019 Annual Meeting of <em>Vision Sciences Society (VSS)</em>, 5/20, St. Pete Beach, FL, USA. <a href='https://doi.org/10.1167/19.10.174b' target='_blank' rel='noopener noreferrer'>[Abstract]</a></p>
+            <p class='publications-conf'>Yousif, S. R., Chen, Y. -C., & Scholl, B. J. (2019). Systematic biases in the representation of visual space. Poster presented at the 2019 Annual Meeting of <em>Vision Sciences Society (VSS)</em>, 5/20, St. Pete Beach, FL, USA. <a href='https://doi.org/10.1167/19.10.202b' target='_blank' rel='noopener noreferrer'>[Abstract]</a></p>
+            <p class='publications-conf'>Chen, Y. -C., Colombatto, C., & Scholl, B. J. (2018). Looking into the future: An inward bias in aesthetic experience driven only by gaze cues. Poster presented at the 2018 Annual Meeting of <em>Vision Sciences Society (VSS)</em>, 5/23, St. Pete Beach, FL, USA. <a href='../Files/Posters/Chen_Colombatto_Scholl_2018_VSS_gazeInwardBias.pdf' target='_blank'>[Poster]</a> <a href='https://doi.org/10.1167/18.10.1333' target='_blank' rel='noopener noreferrer'>[Abstract]</a></p>
+            <p class='publications-conf'>Yousif, S., Chen, Y. -C., & Scholl, B. J. (2018). The origin of spatial biases: Memory, perception, or action? Poster presented at the 2018 Annual Meeting of <em>Vision Sciences Society (VSS)</em>, 5/23, St. Pete Beach, FL, USA. <a href='https://doi.org/10.1167/18.10.1324' target='_blank' rel='noopener noreferrer'>[Abstract]</a></p>
+            <p class='publications-conf'>Colombatto, C., Chen, Y. -C., & Scholl, B. J. (2018). Gaze cueing is tuned to extract the mind behind the gaze: Investigations of 'gaze deflection'. Talk given at the 2018 Annual Meeting of <em>Vision Sciences Society (VSS)</em>, 5/19, St. Pete Beach, FL, USA. <a href='https://doi.org/10.1167/18.10.197' target='_blank' rel='noopener noreferrer'>[Abstract]</a></p>
+            <p class='publications-conf'>Colombatto, C., Chen, Y. -C., & Scholl, B. J. (2017). Gaze cueing is tuned to extract the mind behind the gaze: Investigations of ‘gaze deflection’. Poster presented at the annual meeting of the <em>European Conference on Visual Perception (ECVP)</em>, 8/29, Berlin, Germany.</p>
+            <p class='publications-conf'>Chen, Y. -C., Raila, H., & Scholl, B. J. (2017). Sad minds seeking happy stimuli: Trait happiness predicts how quickly happy faces reach visual awareness. Poster presented at the annual meeting of <em>Vision Sciences Society (VSS)</em>, 5/23, St. Pete Beach, FL, USA. <a href='https://doi.org/10.1167/17.10.1210' target='_blank' rel='noopener noreferrer'>[Abstract]</a></p>
+            <p class='publications-conf'>Raila, H., Chen, Y. -C., & Scholl, B. J. (2017). Unhappy people quickly promote happy faces into awareness. Talk presented at the annual meeting of the <em>Society for Affective Science (SAS)</em>, 4/29, Boston, MA, USA.</p>
+            <p class='publications-conf'>Chen, Y. -C., & Scholl, B. J. (2015). Seeing history: The perception of causal history induces illusory motion perception in static shapes. Talk given at the 11th <em>Asia-Pacific Conference on Vision (APCV)</em>, 7/11,Nanyang Technological University, Singapore. <a href='../Files/Abstracts/Chen_Scholl_2015_APCV_seeingHistoryAbstract.html' target='_blank'>[Abstract]</a></p>
+            <p class='publications-conf'>Chen, Y. -C., & Scholl, B. J. (2015). The perception of history: Seeing causal history in static shapes is powerful enough to induce illusory motion perception. Poster presented at the 2015 Annual Meeting of <em>Vision Sciences Society (VSS)</em>, 5/19, St. Pete Beach, FL, USA. <a href='../Files/Posters/Chen_Scholl_2015_VSS_seeingHistoryPoster.pdf' target='_blank'>[Poster]</a> <a href='https://doi.org/10.1167/15.12.1035' target='_blank' rel='noopener noreferrer'>[Abstract]</a></p>
+            <p class='publications-conf'>Chen, Y. -C., & Scholl, B. J. (2014). Aesthetic influences on visual awareness?: An 'inward bias' in inattentional blindness. Talk given at the 10th <em>Asia-Pacific Conference on Vision (APCV)</em>, 7/21, Takamatsu, Japan.</p>
+            <p class='publications-conf'>Chen, Y. -C., & Scholl, B. J. (2014). Seeing and liking from the outside in: Consistent inward biases in visual perception and aesthetic preferences. Poster presented at the 2014 Annual Meeting of <em>Vision Sciences Society (VSS)</em>, 5/17, St. Pete Beach, FL, USA. <a href='https://doi.org/10.1167/14.10.246' target='_blank' rel='noopener noreferrer'>[Abstract]</a></p>
+            <p class='publications-conf'>Chen, Y. -C., & Scholl, B. J. (2013). Seeing and liking: Biased perception of ambiguous figures based on aesthetic preferences for how objects should face within a frame. Poster presented at the 2013 Annual Meeting of <em>Vision Sciences Society (VSS)</em>, 5/10, Naples, FL, USA. <a href='../Files/Posters/Chen_Scholl_2013_VSS_inwardAmbiguousPoster.pdf' target='_blank'>[Poster]</a> <a href='https://doi.org/10.1167/13.9.59' target='_blank' rel='noopener noreferrer'>[Abstract]</a></p>
+            <p class='publications-conf'>Chen, Y. -C., & Yeh, S. -L. (2011). Dissociating attention and audiovisual integration in the sound-facilitatory effect on metacontrast masking. Poster presented at the 12th <em>International Multisensory Research Forum (IMRF)</em>, 10/19, Fukuoka, Japan. <a href='../Files/Posters/Chen_Yeh_2011_IMRF_maskingPoster.pdf' target='_blank'>[Poster]</a> <a href='https://doi.org/10.1068/ic909' target='_blank' rel='noopener noreferrer'>[Abstract]</a></p>
+            <p class='publications-conf'>Chen, Y. -C., & Yeh, S. -L. (2011). Orienting or intention? Unconscious processing of human gaze. Talk given at the 15th Annual Meeting of the <em>Association for the Scientific Study of Consciousness (ASSC)</em>, 6/12, Kyoto, Japan. <a href='../Files/Abstracts/Chen_Yeh_2011_ASSC_unconsciousGazeAbstract.html' target='_blank'>[Abstract]</a></p>
+        </main>
+        <footer>
+            <a class='footer-button' id='gs-button' href='https://scholar.google.com/citations?user=8DzbEt8AAAAJ' target='_blank' rel='noopener noreferrer'>
+                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 50'>
+                    <polygon class='hexagon' points='43.16,1 15.15,1 1.16,25.25 15.15,49.5 43.16,49.5 57.16,25.25 43.16,1'/>
+                </svg>
+                <div class='ai ai-google-scholar ai-3x footer-icon' id='gs-icon'></div>
+            </a>
+            <a class='footer-button' id='rg-button' href='https://www.researchgate.net/profile/Yi-Chia_Chen' target='_blank' rel='noopener noreferrer'>
+                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 50'>
+                    <polygon class='hexagon' points='43.16,1 15.15,1 1.16,25.25 15.15,49.5 43.16,49.5 57.16,25.25 43.16,1'/>
+                </svg>
+                <div class='ai ai-researchgate ai-3x footer-icon' id='rg-icon'></div>
+            </a>
+            <a class='footer-button' id='github-button' href='https://github.com/Yi-Chia-Chen' target='_blank' rel='noopener noreferrer'>
+                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 50'>
+                    <polygon class='hexagon' points='43.16,1 15.15,1 1.16,25.25 15.15,49.5 43.16,49.5 57.16,25.25 43.16,1'/>
+                </svg>
+                <div class='fab fa-github fa-3x footer-icon' id='github-icon'></div>
+            </a>
+        </footer>
     </div>
     <script>
         var sc_project = 12015468;
@@ -141,128 +124,6 @@
         var sc_security = '035108ae';
     </script>
     <script src='https://www.statcounter.com/counter/counter.js' async></script>
-    <script>
-        var body = document.body
-        var html = document.documentElement;
-        var height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
-        var viewHeight = $(window).height();
-        var butAppear = 50;
-        var butDiss = height - viewHeight - 160;
-
-        /*buttons*/
-        function aboutButOn() {
-            $(aboutHover).fadeIn(150);
-            $(aboutBut).fadeOut(150);
-        }
-
-        function aboutButOut() {
-            $(aboutBut).fadeIn(150);
-            $(aboutHover).fadeOut(150);
-        }
-
-        function cvButOn() {
-            $(cvBut).fadeOut(150);
-            $(cvHover).fadeIn(150);
-        }
-
-        function cvButOut() {
-            $(cvHover).fadeOut(150);
-            $(cvBut).fadeIn(150);
-        }
-
-        /*Narrow Version*/
-        function aboutButOnN() {
-            $(aboutHoverN).fadeIn(150);
-            $(aboutButN).fadeOut(150);
-        }
-
-        function aboutButOutN() {
-            $(aboutButN).fadeIn(150);
-            $(aboutHoverN).fadeOut(150);
-        }
-
-        function cvButOnN() {
-            $(cvButN).fadeOut(150);
-            $(cvHoverN).fadeIn(150);
-        }
-
-        function cvButOutN() {
-            $(cvHoverN).fadeOut(150);
-            $(cvButN).fadeIn(150);
-        }
-
-        /*click*/
-        function nameClick() {
-            window.location = '../';
-        }
-
-        function aboutButClick() {
-            window.location = '../About/';
-        }
-
-        function cvButClick() {
-            window.location = '../CV/';
-        }
-
-        /*links*/
-        function mailtoButOn() {
-            $(mailtoHover).fadeIn(150);
-            $(mailto).fadeOut(150);
-        }
-
-        function mailtoButOut() {
-            $(mailto).fadeIn(150);
-            $(mailtoHover).fadeOut(150);
-        }
-
-        function gsButOn() {
-            $(gsHover).fadeIn(150);
-            $(gs).fadeOut(150);
-        }
-
-        function gsButOut() {
-            $(gs).fadeIn(150);
-            $(gsHover).fadeOut(150);
-        }
-
-        function rgButOn() {
-            $(rgHover).fadeIn(150);
-            $(rg).fadeOut(150);
-        }
-
-        function rgButOut() {
-            $(rg).fadeIn(150);
-            $(rgHover).fadeOut(150);
-        }
-
-        function mailtoButClick() {
-            window.open('mailto:yichiachen@ucla.edu');
-        }
-
-        function gsButClick() {
-            window.open('https://scholar.google.com/citations?user=8DzbEt8AAAAJ');
-        }
-
-        function rgButClick() {
-            window.open('https://www.researchgate.net/profile/Yi-Chia_Chen');
-        }
-
-        /*toTop*/
-        function toTop() {
-            window.scrollTo(0, 0);
-        }
-
-        function butDisplay() {
-            if (window.pageYOffset > butAppear && window.pageYOffset < butDiss) {
-                $('#toTopButAreaFixed').fadeIn();
-                $('#toTopButFixed').fadeIn();
-            }
-            if (window.pageYOffset <= butAppear || window.pageYOffset >= butDiss) {
-                $('#toTopButFixed').fadeOut();
-                $('#toTopButAreaFixed').fadeOut();
-            }
-        }
-    </script>
 </body>
 
 </html>

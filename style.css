@@ -260,7 +260,7 @@ footer {
         width: 300px;
     }
     .title{
-        font-size: 45px;
+        font-size: 40px;
         line-height: 70px;
     }
     nav {
@@ -288,23 +288,23 @@ footer {
     }
     .text-box {
         width: 100%;
-        font-size: 16px;
+        font-size: 18px;
     }
     .resource-section-title {
         padding: 10px 0 5px 0;
-        font-size: 18px;
+        font-size: 20px;
     }
     .section-title{
         padding: 10px 0 10px 0;
-        font-size: 18px;
+        font-size: 20px;
     }
     .publications{
-        font-size: 15px;
+        font-size: 16px;
         line-height: 22px;
         text-indent: -30px;
     }
     .publications-conf {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 22px;
         text-indent : -30px;
     }

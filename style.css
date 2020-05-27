@@ -169,10 +169,13 @@ main {
     margin: 0;
 }
 .resource-section-title {
-	padding: 40px 0 5px 0;
+	padding: 80px 0 5px 0;
 	font-size: 22px;
 	font-weight: 600;
 	margin: 0;
+}
+.resource-first-section-title {
+    padding: 40px 0 5px 0;
 }
 .resource-section-subtitle {
 	padding: 20px 0 6px 0;

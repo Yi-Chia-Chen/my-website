@@ -146,6 +146,9 @@ main {
 	text-align: center;
 	color: white;
 }
+#last-date {
+    padding: 0 0 0 0.5em;
+}
 .text-box {
     width: 90%;
     margin: 20px auto 50px auto;

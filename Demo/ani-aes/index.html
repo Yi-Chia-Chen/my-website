@@ -3,131 +3,117 @@
 
 <head>
     <title>Demo - YCC</title>
-    <link rel='stylesheet' href='../../style.css' />
-    <link rel='stylesheet' href='https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css' />
-    <link rel='shortcut icon' href='../../Files/Images/favicon-32x32.png' />
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap' />
     <meta name='keywords' content='Psychology, Perception, Vision, Yale, Harvard, UCLA' />
-    <meta name='author' content='Yi-Chia Chen Ya-Chia 陳怡嘉 鴨嘉' />
+    <meta name='author' content='Yi-Chia Chen 陳怡嘉' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <meta name='description' content='Demos by Yi-Chia Chen' />
+    <meta name='description' content='Experiment demonstrations from Yi-Chia Chen' />
+    <link rel='shortcut icon' href='../../files/images/favicon-32x32.png' />
+    <link rel='stylesheet' href='../../style.css' />
+
+    <link rel='stylesheet' href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel='preconnect' href="https://fonts.googleapis.com">
+    <link rel='preconnect' href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap' rel="stylesheet">
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
     <script src='https://kit.fontawesome.com/12eb5bce58.js'></script>
 </head>
 
 <body>
-    <div class='whole-page'>
-        <header>
-            <a class='title' href='..'>Yi-Chia Chen</a>
-        </header>
-        <nav>
-            <div class='nav-button-small' id='secret-button-left'>
-                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'>
-                    <polygon class='nav-triangle' points='1,0 0,1 0,0.1 0.1,0'/>
-                </svg>
-            </div>
-            <svg class='nav-button rotate' id='about-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
-                <a href='../../About'>
-                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
-                    <text x='11' y='9' fill='#161616' font-size='5.5px'>About</text>
-                </a>
+    <header>
+        <a class='title' href='../..'>Yi-Chia Chen</a>
+    </header>
+    <nav>
+        <div class='nav-button-small' id='secret-button-left'>
+            <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'>
+                <polygon class='nav-triangle' points='1,0 0,1 0,0.1 0.1,0'/>
             </svg>
-            <svg class='nav-button rotate' id='publication-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
-                <a href='../../Publications'>
-                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
-                    <text x='11' y='9' fill='#161616' font-size='5.5px'>Publication</text>
-                </a>
-            </svg>
-            <svg class='nav-button rotate no-pointer' id='resource-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
-                <a href='../../Resource'>
-                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
-                    <text x='11' y='9' fill='#161616' font-size='5.5px'>Resource</text>
-                </a>
-            </svg>
-            <svg class='nav-button rotate' id='demo-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
-                <a href='..'>
-                    <polygon class='red-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
-                    <text x='11' y='9' fill='white' font-size='5.5px'>Demo</text>
-                </a>
-            </svg>
-            <div class='nav-button-small' id='secret-button-right'>
-                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'>
-                    <polygon class='nav-triangle' points='1,0 0,1 0.9,1 1,0.9'/>
-                </svg>
-            </div>
-        </nav>
-        <main class='text-box'>
-            <p class='resource-section-title resource-first-section-title align-center'>Aesthetic preferences for causality in biological movements arise from visual processes</p>
-            <p class='align-center no-margin'>Yi-Chia Chen, Frank Pollick, & Hongjing Lu</p>
-            <br />
-            <ul class='no-margin'>
-                <li><a href='../../Files/Papers/Chen_Pollick_Lu_2022_PB&R_AnimacyCausalityAesthetics.pdf' target='_blank' rel='noopener noreferrer'><em>Paper</em></a></li>
-                <li><a href='https://doi.org/10.17605/OSF.IO/WTSRF' target='_blank' rel='noopener noreferrer'><em>Materials & Data</em></a></li>
-                <li><a href='https://yi-chia-chen.github.io/BM-aes-demo-expt/' target='_blank' rel='noopener noreferrer'><em>Experiment Demo</em></a></li>
-                <li><a href='../../Files/Abstracts/Chen_Pollick_Lu_2021_VVSS_animacyCausality&Aesthetics.html' target='_blank' >V-VSS Abstract</a></li>
-                <li><a href='../../Files/Posters/Chen_Pollick_Lu_2021_VVSS_animacyCausality&Aesthetics.pdf' target='_blank'>V-VSS Poster</a></li>
-                <li><a href='../../Files/Videos/Chen_Pollick_Lu_2021_VVSS_animacyCausality&Aesthetics.mp4' target='_blank'>V-VSS Walkthrough</a></li>
-                <li><a href='../../Files/Slides/Chen_Pollick_Lu_2021_VVSS_animacyCausality&Aesthetics_demo.pptx' target='_blank'>V-VSS Demo in slides</a></li>
-                <li><a href='https://escholarship.org/uc/item/05b2r0m5' target='_blank' rel='noopener noreferrer'>CogSci paper</a></li>
-                <li><a href='../../Files/Videos/Chen_Pollick_Lu_2021_CogSci_animacyCausality&Aesthetics.mp4' target='_blank'>CogSci Talk</a></li>
-            </ul>
-            <p class='resource-section-title align-center'>Video Demo</p>
-            <br />
-            <p class='align-center no-margin'>Upright-congruent scrambled walker</p>
-            <br />
-            <video width='600' height='338' controls>
-                <source src='../../Files/Videos/upright_congruent.mp4' type='video/mp4'>
-                Your browser does not support the video tag.
-            </video>
-            <br />
-            <br />
-            <br />
-            <p class='align-center no-margin'>Inverted-congruent scrambled walker</p>
-            <br />
-            <video width='600' height='338' controls>
-                <source src='../../Files/Videos/inverted_congruent.mp4' type='video/mp4'>
-                Your browser does not support the video tag.
-            </video>
-            <br />
-            <br />
-            <br />
-            <p class='align-center no-margin'>Upright-incongruent scrambled walker</p>
-            <br />
-            <video width='600' height='338' controls>
-                <source src='../../Files/Videos/upright_incongruent.mp4' type='video/mp4'>
-                Your browser does not support the video tag.
-            </video>
-            <br />
-            <br />
-            <br />
-            <p class='align-center no-margin'>Inverted-incongruent scrambled walker</p>
-            <br />
-            <video width='600' height='338' controls>
-                <source src='../../Files/Videos/inverted_incongruent.mp4' type='video/mp4'>
-                Your browser does not support the video tag.
-            </video>
-        </main>
-        <footer>
-            <a class='footer-button' id='gs-button' href='https://scholar.google.com/citations?user=8DzbEt8AAAAJ' target='_blank' rel='noopener noreferrer'>
-                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 50'>
-                    <polygon class='hexagon' points='43.16,1 15.15,1 1.16,25.25 15.15,49.5 43.16,49.5 57.16,25.25 43.16,1'/>
-                </svg>
-                <div class='ai ai-google-scholar ai-3x footer-icon' id='gs-icon'></div>
+        </div>
+        <svg class='nav-button rotate' id='first-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+            <a href='../../about'>
+                <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                <text x='11' y='9' fill='#161616' font-size='6px'>About</text>
             </a>
-            <a class='footer-button' id='rg-button' href='https://www.researchgate.net/profile/Yi-Chia_Chen' target='_blank' rel='noopener noreferrer'>
-                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 50'>
-                    <polygon class='hexagon' points='43.16,1 15.15,1 1.16,25.25 15.15,49.5 43.16,49.5 57.16,25.25 43.16,1'/>
-                </svg>
-                <div class='ai ai-researchgate ai-3x footer-icon' id='rg-icon'></div>
+        </svg>
+        <svg class='nav-button rotate' id='second-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+            <a href='../../papers'>
+                <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                <text x='11' y='9' fill='#161616' font-size='6px'>Papers</text>
             </a>
-            <a class='footer-button' id='github-button' href='https://github.com/Yi-Chia-Chen' target='_blank' rel='noopener noreferrer'>
-                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 50'>
-                    <polygon class='hexagon' points='43.16,1 15.15,1 1.16,25.25 15.15,49.5 43.16,49.5 57.16,25.25 43.16,1'/>
-                </svg>
-                <div class='fab fa-github fa-3x footer-icon' id='github-icon'></div>
+        </svg>
+        <svg class='nav-button rotate no-pointer' id='third-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+            <a href='../../resource'>
+                <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                <text x='11' y='9' fill='#161616' font-size='6px'>Resource</text>
             </a>
-        </footer>
-    </div>
+        </svg>
+        <svg class='nav-button rotate' id='fourth-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+            <a href='../../demo'>
+                <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                <text x='11' y='9' fill='#161616' font-size='6px'>Demo</text>
+            </a>
+        </svg>
+        <div class='nav-button-small' id='secret-button-right'>
+            <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'>
+                <polygon class='nav-triangle' points='1,0 0,1 0.9,1 1,0.9'/>
+            </svg>
+        </div>
+    </nav>
+    <main class='text-box'>
+        <p class='section-title first-title'>Aesthetic preferences for causality in biological movements arise from visual processes</p>
+        <p>Yi-Chia Chen, Frank Pollick, & Hongjing Lu</p>
+        <ul>
+            <li><a href='../../files/papers/Chen_Pollick_Lu_2022_PB&R_AnimacyCausalityAesthetics.pdf' target='_blank' rel='noopener noreferrer'>Paper</a></li>
+            <li><a href='https://doi.org/10.17605/OSF.IO/WTSRF' target='_blank' rel='noopener noreferrer'>Materials & Data</a></li>
+            <li><a href='https://yi-chia-chen.github.io/BM-aes-demo-expt/' target='_blank' rel='noopener noreferrer'>Experiment Demo</a></li>
+            <li><a href='../../files/abstracts/Chen_Pollick_Lu_2021_VVSS_animacyCausality&Aesthetics.html' target='_blank' >V-VSS Abstract</a></li>
+            <li><a href='../../files/posters/Chen_Pollick_Lu_2021_VVSS_animacyCausality&Aesthetics.pdf' target='_blank'>V-VSS Poster</a></li>
+            <li><a href='../../files/videos/Chen_Pollick_Lu_2021_VVSS_animacyCausality&Aesthetics.mp4' target='_blank'>V-VSS Walkthrough</a></li>
+            <li><a href='../../files/slides/Chen_Pollick_Lu_2021_VVSS_animacyCausality&Aesthetics_demo.pptx' target='_blank'>V-VSS Demo in slides</a></li>
+            <li><a href='https://escholarship.org/uc/item/05b2r0m5' target='_blank' rel='noopener noreferrer'>CogSci paper</a></li>
+            <li><a href='../../files/videos/Chen_Pollick_Lu_2021_CogSci_animacyCausality&Aesthetics.mp4' target='_blank'>CogSci Talk</a></li>
+        </ul>
+        <p class='section-title'>Video Demo</p>
+        <p class='subsection-title'>Upright-congruent scrambled walker</p>
+        <video width='600' height='338' controls>
+            <source src='../../files/videos/upright_congruent.mp4' type='video/mp4'>
+            Your browser does not support the video tag.
+        </video>
+        <p class='subsection-title'>Inverted-congruent scrambled walker</p>
+        <video width='600' height='338' controls>
+            <source src='../../files/videos/inverted_congruent.mp4' type='video/mp4'>
+            Your browser does not support the video tag.
+        </video>
+        <p class='subsection-title'>Upright-incongruent scrambled walker</p>
+        <video width='600' height='338' controls>
+            <source src='../../files/videos/upright_incongruent.mp4' type='video/mp4'>
+            Your browser does not support the video tag.
+        </video>
+        <p class='subsection-title'>Inverted-incongruent scrambled walker</p>
+        <video width='600' height='338' controls>
+            <source src='../../files/videos/inverted_incongruent.mp4' type='video/mp4'>
+            Your browser does not support the video tag.
+        </video>
+    </main>
+    <footer>
+        <a class='footer-button' href='https://scholar.google.com/citations?user=8DzbEt8AAAAJ' target='_blank' rel='noopener noreferrer'>
+            <i class='ai ai-google-scholar footer-icon'></i>
+            <svg class='tight' xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 22 19.32'>
+                <polygon class='hexagon' points='6,1 16,1, 21,9.66 16,18.32 6,18.32 1,9.66'/>
+            </svg>
+        </a>
+        <a class='footer-button' href='https://www.researchgate.net/profile/Yi-Chia_Chen' target='_blank' rel='noopener noreferrer'>
+            <i class='ai ai-researchgate footer-icon'></i>
+            <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 19.32'>
+                <polygon class='hexagon' points='6,1 16,1, 21,9.66 16,18.32 6,18.32 1,9.66'/>
+            </svg>
+        </a>
+        <a class='footer-button' href='https://github.com/Yi-Chia-Chen' target='_blank' rel='noopener noreferrer'>
+            <i class='fab fa-github footer-icon'></i>
+            <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 19.32'>
+                <polygon class='hexagon' points='6,1 16,1, 21,9.66 16,18.32 6,18.32 1,9.66'/>
+            </svg>
+        </a>
+    </footer>
     <script>
         var sc_project = 12015468;
         var sc_invisible = 1;

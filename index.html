@@ -3,83 +3,85 @@
 
 <head>
     <title>Yi-Chia Chen</title>
-    <link rel='stylesheet' href='style.css' />
-    <link rel='stylesheet' href='https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css' />
-    <link rel='shortcut icon' href='Files/Images/favicon-32x32.png' />
     <meta name='keywords' content='Psychology, Perception, Vision, Yale, Harvard, UCLA' />
-    <meta name='author' content='Yi-Chia Chen Ya-Chia 陳怡嘉 鴨嘉' />
+    <meta name='author' content='Yi-Chia Chen 陳怡嘉' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <meta name='description' content='Postdoctoral researcher at UCLA working with Hongjing Lu in the Computational Vision and Learning Laboratory' />
+    <meta name='description' content='Postdoctoral researcher at UCLA Computational Vision and Learning Laboratory' />
+    <link rel='shortcut icon' href='files/images/favicon-32x32.png' />
+    <link rel='stylesheet' href='style.css' />
+
+    <link rel='stylesheet' href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel='preconnect' href="https://fonts.googleapis.com">
+    <link rel='preconnect' href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap' rel="stylesheet">
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
     <script src='https://kit.fontawesome.com/12eb5bce58.js'></script>
 </head>
 
 <body>
-    <div class='whole-page'>
-        <header>
-            <div class='title'>Yi-Chia Chen</div>
-            <div class='photo'></div>
-        </header>
-        <nav>
-            <div class='nav-button-small' id='secret-button-left'>
-                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'>
-                    <polygon class='nav-triangle' points='1,0 0,1 0,0.1 0.1,0'/>
-                </svg>
-            </div>
-            <svg class='nav-button rotate' id='about-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
-                <a href='About'>
-                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
-                    <text x='11' y='9' fill='#161616' font-size='5.5px'>About</text>
-                </a>
+    <header>
+        <div class='title'>Yi-Chia Chen</div>
+        <div class='photo'></div>
+    </header>
+    <nav>
+        <div class='nav-button-small' id='secret-button-left'>
+            <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'>
+                <polygon class='nav-triangle' points='1,0 0,1 0,0.1 0.1,0'/>
             </svg>
-            <svg class='nav-button rotate' id='publication-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
-                <a href='Publications'>
-                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
-                    <text x='11' y='9' fill='#161616' font-size='5.5px'>Publication</text>
-                </a>
-            </svg>
-            <svg class='nav-button rotate' id='resource-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
-                <a href='Resource'>
-                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
-                    <text x='11' y='9' fill='#161616' font-size='5.5px'>Resource</text>
-                </a>
-            </svg>
-            <svg class='nav-button rotate' id='demo-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
-                <a href='Demo'>
-                    <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
-                    <text x='11' y='9' fill='#161616' font-size='5.5px'>Demo</text>
-                </a>
-            </svg>
-            <div class='nav-button-small' id='secret-button-right'>
-                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'>
-                    <polygon class='nav-triangle' points='1,0 0,1 0.9,1 1,0.9'/>
-                </svg>
-            </div>
-        </nav>
-        <main class='last-update'>
-            Last Update:<time id='last-date' datetime='2022-04-14'>Apr - 02 - 2024<time>
-        </main>
-        <footer>
-            <a class='footer-button' id='gs-button' href='https://scholar.google.com/citations?user=8DzbEt8AAAAJ' target='_blank' rel='noopener noreferrer'>
-                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 50'>
-                    <polygon class='hexagon' points='43.16,1 15.15,1 1.16,25.25 15.15,49.5 43.16,49.5 57.16,25.25 43.16,1'/>
-                </svg>
-                <div class='ai ai-google-scholar ai-3x footer-icon' id='gs-icon'></div>
+        </div>
+        <svg class='nav-button rotate' id='first-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+            <a href='about'>
+                <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                <text x='11' y='9' fill='#161616' font-size='6px'>About</text>
             </a>
-            <a class='footer-button' id='rg-button' href='https://www.researchgate.net/profile/Yi-Chia_Chen' target='_blank' rel='noopener noreferrer'>
-                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 50'>
-                    <polygon class='hexagon' points='43.16,1 15.15,1 1.16,25.25 15.15,49.5 43.16,49.5 57.16,25.25 43.16,1'/>
-                </svg>
-                <div class='ai ai-researchgate ai-3x footer-icon' id='rg-icon'></div>
+        </svg>
+        <svg class='nav-button rotate' id='second-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+            <a href='papers'>
+                <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                <text x='11' y='9' fill='#161616' font-size='6px'>Papers</text>
             </a>
-            <a class='footer-button' id='github-button' href='https://github.com/Yi-Chia-Chen' target='_blank' rel='noopener noreferrer'>
-                <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 50'>
-                    <polygon class='hexagon' points='43.16,1 15.15,1 1.16,25.25 15.15,49.5 43.16,49.5 57.16,25.25 43.16,1'/>
-                </svg>
-                <div class='fab fa-github fa-3x footer-icon' id='github-icon'></div>
+        </svg>
+        <svg class='nav-button rotate' id='third-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+            <a href='resource'>
+                <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                <text x='11' y='9' fill='#161616' font-size='6px'>Resource</text>
             </a>
-        </footer>
-    </div>
+        </svg>
+        <svg class='nav-button rotate' id='fourth-button' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 58 13'>
+            <a href='demo'>
+                <polygon class='white-shape' points='3 0 0 4.5 8 13 55 13 58 8.55 50 0 3 0'/>
+                <text x='11' y='9' fill='#161616' font-size='6px'>Demo</text>
+            </a>
+        </svg>
+        <div class='nav-button-small' id='secret-button-right'>
+            <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'>
+                <polygon class='nav-triangle' points='1,0 0,1 0.9,1 1,0.9'/>
+            </svg>
+        </div>
+    </nav>
+    <main class='last-update'>
+        Last Update:<time id='last-date' datetime='2024-07-08'>Jul - 08 - 2024<time>
+    </main>
+    <footer>
+        <a class='footer-button' href='https://scholar.google.com/citations?user=8DzbEt8AAAAJ' target='_blank' rel='noopener noreferrer'>
+            <i class='ai ai-google-scholar footer-icon'></i>
+            <svg class='tight' xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 22 19.32'>
+                <polygon class='hexagon' points='6,1 16,1, 21,9.66 16,18.32 6,18.32 1,9.66'/>
+            </svg>
+        </a>
+        <a class='footer-button' href='https://www.researchgate.net/profile/Yi-Chia_Chen' target='_blank' rel='noopener noreferrer'>
+            <i class='ai ai-researchgate footer-icon'></i>
+            <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 19.32'>
+                <polygon class='hexagon' points='6,1 16,1, 21,9.66 16,18.32 6,18.32 1,9.66'/>
+            </svg>
+        </a>
+        <a class='footer-button' href='https://github.com/Yi-Chia-Chen' target='_blank' rel='noopener noreferrer'>
+            <i class='fab fa-github footer-icon'></i>
+            <svg class='tight' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 19.32'>
+                <polygon class='hexagon' points='6,1 16,1, 21,9.66 16,18.32 6,18.32 1,9.66'/>
+            </svg>
+        </a>
+    </footer>
     <script>
         var sc_project = 12015468;
         var sc_invisible = 1;

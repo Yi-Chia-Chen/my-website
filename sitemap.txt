@@ -1,7 +1,6 @@
 ﻿https://ycc.vision/
-https://ycc.vision/About/
-https://ycc.vision/Publications/
-https://ycc.vision/Resource/
-https://ycc.vision/Demo/
-https://ycc.vision/Demo/ani-aes/
-https://ycc.vision/Demo/history/
+https://ycc.vision/about/
+https://ycc.vision/papers/
+https://ycc.vision/resource/
+https://ycc.vision/demo/
+https://ycc.vision/demo/ani-aes/
